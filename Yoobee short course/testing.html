@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Main Page</title>
+  <style>
+    body {
+      background-color: #90adbb;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+      position: relative; /* keep pos the same */
+    }
+    
+    h1 {
+      margin: 5;
+    }
+
+    /* Add styles for the logo */
+    .logo {
+      position: absolute;
+      top: 10px;
+      left: 10px; /* Adjust if size changes */
+      width: 280px; /* adjust if banner changes */
+    }
+    
+    nav {
+      background-color: #333;
+      padding: px;
+      text-align: center;
+    }
+    
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    
+    main {
+      background-color: #333;
+      padding: 20px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #ffffff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="logo" src="https://media.discordapp.net/attachments/1074584258993209345/1125713785362059314/yoobee_logo.png" alt="Logo">
+    <h1>Welcome to Violet Candy</h1>
+  </header> 
+  
+  <nav>
+    <a href="testing.html">Home</a> |
+    <a href="shop.html">Shop</a> |
+    <a href="about.html">About</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <!-- main content for web page -->
+  </main>
+
+  <footer>
+    <!-- footer content for web page -->
+  </footer>
+
+</body>
+</html>
+
+<div class="container">
+  <h1>MONTHLY BEST SELLERS</h1>
+</div>
+
+<div class="image-container">
+  <img src="https://storage.googleapis.com/du-prd/books/images/9780593441275.jpg" alt="book 1">
+  <img src="https://storage.googleapis.com/du-prd/books/images/9781501110375.jpg" alt="book 2">
+  <img src="https://storage.googleapis.com/du-prd/books/images/9781668001226.jpg" alt="book 3">
+</div>
+
+<div class="container">
+  <h1>BEST KID SELLERS</h1>
+</div>
+
+<div class="image-container">
+  <img src="https://cdn.discordapp.com/attachments/1115881019179012167/1125973807300083752/97801437960841.jpg" alt="book 4">
+  <img src="https://cdn.kobo.com/book-images/ab4a9683-7a37-49ef-88a7-bb58bf5f9cea/353/569/90/False/the-adventures-of-captain-underpants-color-edition-captain-underpants-1-color-edition.jpg" alt="book 5">
+  <img src="https://d3fa68hw0m2vcc.cloudfront.net/c61/174696970.jpeg" alt="book 6">
+</div>
+
+<div class="container">
+  <h1>BEST TEEN/YOUNG ADULT SELLERS</h1>
+</div>
+
+<div class="image-container">
+  <img src="https://images1.penguinrandomhouse.com/cover/9780593481653" alt="book 4">
+  <img src="https://images1.penguinrandomhouse.com/cover/9781368077545" alt="book 5">
+  <img src="https://images3.penguinrandomhouse.com/cover/9780593481493" alt="book 6">
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* css styles */
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300px; /* leave height */
+      border: 20px solid black; /* add a future border */
+    }
+
+    /* css styles for image */
+    .centered-image {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Centered Text Page</title>
+  <style>
+    body {
+      background-color: #90adbb;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      text-align: center;
+      padding: 10px;
+      border: none;
+    }
+    
+    .centered-text {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="centered-text">Check out our socials!
+      <div>
+Twitter: @VioletCandy
+</div>
+Instagram: @VioletCandy
+<div>
+  Facebook: @VioletCandy
+
+</style>
+</head>
+<body>
+  <div class="color-transition">
+    <!-- Your website content here -->
+  </div>
+
+  <script>
+    window.addEventListener("scroll", function() {
+      var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+      // Define the start and end scroll positions for the color transition
+      var startScroll = 0; // Start at the top
+      var endScroll = 500; // Scroll distance where color transition completes
+
+      // Define the start and end colors
+      var startColor = [144, 173, 187]; // RGB values of start color (#90adbb)
+      var endColor = [255, 193, 7]; // RGB values of end color (#ffc107)
+
+      // Calculate the current color based on scroll position
+      var currentColor = startColor.map(function (start, index) {
+        var end = endColor[index];
+        var range = end - start;
+        var progress = Math.min(Math.max((scrollPosition - startScroll) / (endScroll - startScroll), 0), 1);
+        return Math.round(start + (range * progress));
+      });
+
+      // Apply the current color as the background color
+      document.body.style.backgroundColor = "rgb(" + currentColor.join(",") + ")";
+    });
+  </script>
+</body>
+</html>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+  </style>
+  

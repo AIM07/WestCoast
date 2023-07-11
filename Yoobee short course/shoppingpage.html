@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Page</title>
+  <style>
+    body {
+      background-color: #90adbb;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+      position: relative;
+    }
+    
+    h1 {
+      margin: 5;
+    }
+
+    /* Add styles for the logo */
+    .logo {
+      position: absolute;
+      top: 10px;
+      left: 50px;
+      width: 140px;
+    }
+    
+    nav {
+      background-color: #333;
+      padding: px;
+      text-align: center;
+    }
+    
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    
+    main {
+      background-color: #333;
+      padding: 20px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #ffffff;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    /* Add styles for the video container */
+    .video-container {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      width: 400px;
+      height: 255px;
+    }
+    
+    .video-container video {
+      width:100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="logo" src="https://media.discordapp.net/attachments/868643647489454161/1126113945023955064/west-coast-high-resolution-logo-white-on-transparent-background.png?width=623&height=701" alt="Logo">
+    <h1>Shopping</h1>
+    
+    <!-- Add the video container within the header -->
+    <div class="video-container">
+      <video src="https://cdn.discordapp.com/attachments/1115881019179012167/1126071494758367304/y2mate.is_-_Bird_s_Eye_View_Of_People_Surfing_On_Beach_-_No_Copyright_Video_-AO68WjTD-p4-1080pp-1688546724.mp4" controls autoplay muted loop></video>
+    </div>
+  </header> 
+  
+  <nav>
+    <a href="mainpage.html">Home</a> |
+    <a href="shoppingpage.html">Shop</a> |
+    <a href="westcoastabout.html">About</a> |
+    <a href="teampage.html">Team</a> |
+    <a href="westcoastcontact.html">Contact</a>
+  </nav>
+
+  <main>
+    <!-- main content for web page -->
+  </main> 
+
+  <footer>
+    <!-- footer content for web page -->
+  </footer> 
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>About the Team</title>
+  <style>
+    body {
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+    }
+
+    .center-text {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .team-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    
+    .team-member {
+      width: 250px;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .team-member img {
+      display: block;
+      margin: 0 auto;
+      width: 150px;
+      height: 150px;
+      border-radius: 10%;
+      object-fit: cover;
+    }
+    
+    .team-member h3 {
+      margin-top: 10px;
+    }
+    
+    .team-member p {
+      margin: 5px 0;
+    }
+
+    #basket-container {
+      background-color: #90adbb;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    
+    #basket-items {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Repeat the following div as many times as needed -->
+  <div class="center-text">
+    <h1>OUR MOST POPULAR OF THE MONTH</h1>
+    <p>Not all products are shown (come into the store to see all)</p>
+  </div>
+
+  <div class="team-container">
+    <!-- Insert the shopping page code here -->
+    <div class="team-member">
+      <img src="https://d1mv2b9v99cq0i.cloudfront.net/eyJidWNrZXQiOiJ3ZWItbmluamEtaW1hZ2VzIiwia2V5IjoidGhlYm9hcmRzaG9wXC9pbWFnZXNcL3Byb2RpbWdcLzIyMTEyMzdfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM5OCwiaGVpZ2h0Ijo0MzAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX19LCJ2ZXJzaW9uIjoiNGJmMDZlOWQ4NGY0N2U0NTNlYWMyMGMyNjdjZDVhNDMxZjVlN2E0MSJ9" alt="Product 1">
+      <h3><a href="https://www.theboardshop.co.nz/product-group/141631-torq-mod-fish-6-3/product?productId=2211237">Torq Mod Fish - 6'3</a></h3>
+      <h3>$769.00</h3>
+      <p>In Stock</p>
+      <button onclick="addToBasket('Torq Mod Fish', '769.00')">Add to Cart</button>
+    </div>
+
+    <div class="team-member">
+      <img src="https://d1mv2b9v99cq0i.cloudfront.net/eyJidWNrZXQiOiJ3ZWItbmluamEtaW1hZ2VzIiwia2V5IjoidGhlYm9hcmRzaG9wXC9pbWFnZXNcL3Byb2RpbWdcLzU1MDZfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM5OCwiaGVpZ2h0Ijo0MzAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX19LCJ2ZXJzaW9uIjoiZWZjMTk3NjZlYTgzZWQ3MjFiY2IzNDE1YmVkZGUwMjBlODNjNjRiNSJ9" alt="Product 2">
+      <h3><a href="https://www.theboardshop.co.nz/product-group/947-torq-tec-summer/product?productId=5506">Torq Tec Summer</a></h3>
+      <h3>$819.00</h3>
+      <p>In Stock</p>
+      <button onclick="addToBasket('Torq Tec Summer', '819.00')">Add to Cart</button>
+    </div>
+
+    <div class="team-member">
+      <img src="https://d1mv2b9v99cq0i.cloudfront.net/eyJidWNrZXQiOiJ3ZWItbmluamEtaW1hZ2VzIiwia2V5IjoidGhlYm9hcmRzaG9wXC9pbWFnZXNcL3Byb2RpbWdcLzIyMTI5ODFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM5OCwiaGVpZ2h0Ijo0MzAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX19LCJ2ZXJzaW9uIjoiYjgwZmQ0MWUwZDI4YzNmYjNkOWNlYzZhM2JiMTc1ZjgzNTE5NWU0MCJ9" alt="Product 3">
+      <h3><a href="https://www.theboardshop.co.nz/product-group/146903-torq-channel-islands-pod-mod-5-6-/product?productId=2212981">Torq Channel Islands Pod</a></h3>
+      <h3> $819.00</h3>
+      <p>In Stock</p>
+      <button onclick="addToBasket('Torq Channel Islands Pod', '819.00')">Add to Cart</button>
+    </div>
+
+    <div class="team-member">
+      <img src="https://d1mv2b9v99cq0i.cloudfront.net/eyJidWNrZXQiOiJ3ZWItbmluamEtaW1hZ2VzIiwia2V5IjoidGhlYm9hcmRzaG9wXC9pbWFnZXNcL3Byb2RpbWdcLzU1MDFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM5OCwiaGVpZ2h0Ijo0MzAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX19LCJ2ZXJzaW9uIjoiYzBkZjc5NjIzYTU2ZjYwYzQ4MzZlNzA2ZmMwODAwNDhhZWFlOWI5ZCJ9" alt="Product 4">
+      <h3><a href="https://www.theboardshop.co.nz/product-group/946-torq-tec-hybrid/product?productId=5501">Torq Tec Hybrid</a></h3>
+      <h3>$829.00</h3>
+      <p>In Stock</p>
+      <button onclick="addToBasket('Torq Tec Hybrid', '829.00')">Add to Cart</button>
+    </div>
+
+    <div class="team-member">
+      <img src="https://d1mv2b9v99cq0i.cloudfront.net/eyJidWNrZXQiOiJ3ZWItbmluamEtaW1hZ2VzIiwia2V5IjoidGhlYm9hcmRzaG9wXC9pbWFnZXNcL3Byb2RpbWdcLzIyMTM0OThfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM5OCwiaGVpZ2h0Ijo0MzAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX19LCJ2ZXJzaW9uIjoiIn0=" alt="Product 5">
+      <h3><a href="https://www.theboardshop.co.nz/product-group/150976-torq-tec-multiplier-white/product?productId=2213499">Torq Tec Multiplier - White</a></h3>
+      <h3>$849.00</h3>
+      <p>In Stock</p>
+      <button onclick="addToBasket('Torq Tec Multiplier - White', '849.00')">Add to Cart</button>
+    </div>
+
+    <div class="team-member">
+      <img src="https://d1mv2b9v99cq0i.cloudfront.net/eyJidWNrZXQiOiJ3ZWItbmluamEtaW1hZ2VzIiwia2V5IjoidGhlYm9hcmRzaG9wXC9pbWFnZXNcL3Byb2RpbWdcLzIyMTI0NDlfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM5OCwiaGVpZ2h0Ijo0MzAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX19LCJ2ZXJzaW9uIjoiMGFiYmEyMWE1ODU0M2VjOTFhY2JjYmMwMDY2NjY2YzZhOWExNGEwNiJ9" alt="Product 6">
+      <h3><a href="https://www.theboardshop.co.nz/product-group/143516-aloha-black-bean-xe/product?productId=2212449">Aloha Black Bean XE</a></h3>
+      <h3>$925.00</h3>
+      <p>In Stock</p>
+      <button onclick="addToBasket('Aloha Black Bean XE', '925.00')">Add to Cart</button>
+    </div>
+    <!-- Stops here, Starts below -->
+     <!-- Insert the shopping page code here -->
+     <div class="team-member">
+      <img src="https://d1mv2b9v99cq0i.cloudfront.net/eyJidWNrZXQiOiJ3ZWItbmluamEtaW1hZ2VzIiwia2V5IjoidGhlYm9hcmRzaG9wXC9wcm9kdWN0LWdyb3VwXC9wZWFranVuaW9yZW5lcmd5MzJtbXN0ZWFtZXIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozOTgsImhlaWdodCI6NDMwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fSwidmVyc2lvbiI6ImUxYTI4NmM5MjY5OGNlYjE1NTM2NmVmYzg1ZTRjOWJjYzMxYmY0ZTIifQ==" alt="Product 1">
+      <h3><a href="https://www.theboardshop.co.nz/product-group/142148-peak-junior-energy-3-2-mm-steamer/product?productId=2212207">Peak Junior Energy 3/2 mm Steamer</a></h3>
+      <h3>$99.00</h3>
+      <p>In Stock</p>
+      <button onclick="addToBasket('Peak Junior Energy 3/2 mm Steamer', '99.00')">Add to Cart</button>
+    </div>
+
+    <div class="team-member">
+      <img src="https://d1mv2b9v99cq0i.cloudfront.net/eyJidWNrZXQiOiJ3ZWItbmluamEtaW1hZ2VzIiwia2V5IjoidGhlYm9hcmRzaG9wXC9wcm9kdWN0LWdyb3VwXC9vbmVpbGx3b21lbnNmb2N1c3N0ZWFtZXJzZWFsZWRiYWNremlwMzJtbS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM5OCwiaGVpZ2h0Ijo0MzAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX19LCJ2ZXJzaW9uIjoiMzlkODUzZDcwNWU0ZmE2NmM1NmM4ZmM0ZjI5MWE0ZjEwNDdhYTNhMSJ9" alt="Product 2">
+      <h3><a href="https://www.theboardshop.co.nz/product-group/157466-o-neill-women-s-focus-steamer-sealed-back-zip-3-2mm/product?productId=2214049">Women's Focus Steamer Sealed</a></h3>
+      <h3>$299.00</h3>
+      <p>In Stock</p>
+      <button onclick="addToBasket('Womens Focus Steamer Sealed', '299.00')">Add to Cart</button>
+    </div>
+
+    <div class="team-member">
+      <img src="https://d1mv2b9v99cq0i.cloudfront.net/eyJidWNrZXQiOiJ3ZWItbmluamEtaW1hZ2VzIiwia2V5IjoidGhlYm9hcmRzaG9wXC9wcm9kdWN0LWdyb3VwXC9yaXBjdXJsZGF3bnBhdHJvbDMybW1jaGVzdHppcHdvbWVuc3dldHN1aXRzdGVhbWVybmF2eS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM5OCwiaGVpZ2h0Ijo0MzAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX19LCJ2ZXJzaW9uIjoiZmM5ZjY5OTU3YWY3YzBiMTI3ODdiN2M5NWExYjdkNjdjOTU2YzRhOSJ9" alt="Product 3">
+      <h3><a href="https://www.theboardshop.co.nz/product-group/26993-rip-curl-dawn-patrol-3-2mm-chest-zip-womens-wetsuit-steamer-navy/product?productId=8581">Chest Zip Womens Wetsuit Steamer - Navy</a></h3>
+      <h3>$349.00</h3>
+      <p>In Stock</p>
+      <button onclick="addToBasket('Chest Zip Womens Wetsuit Steamer - Navy', '349.00')">Add to Cart</button>
+    </div>
+
+    <div class="team-member">
+      <img src="https://d1mv2b9v99cq0i.cloudfront.net/eyJidWNrZXQiOiJ3ZWItbmluamEtaW1hZ2VzIiwia2V5IjoidGhlYm9hcmRzaG9wXC9wcm9kdWN0LWdyb3VwXC9vbmVpbGxmb2N1c2NoZXN0emlwMzIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozOTgsImhlaWdodCI6NDMwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fSwidmVyc2lvbiI6IjI0ZGU0ZmM2Zjc2ZjcwZWZkMjA0ZDk4YTEwNjEwYTMxODA3ZjM2YTAifQ==" alt="Product 4">
+      <h3><a href="https://www.theboardshop.co.nz/product-group/135545-o-neill-focus-chest-zip-3-2/product?productId=2210965">O'Neill Focus Chest Mens Zip 3/2</a></h3>
+      <h3>$319.00</h3>
+      <p>In Stock</p>
+      <button onclick="addToBasket('Neill Focus Chest Mens Zip 3/2', '319.00')">Add to Cart</button>
+    </div>
+
+    <div class="team-member">
+      <img src="https://d1mv2b9v99cq0i.cloudfront.net/eyJidWNrZXQiOiJ3ZWItbmluamEtaW1hZ2VzIiwia2V5IjoidGhlYm9hcmRzaG9wXC9wcm9kdWN0LWdyb3VwXC9yaXBjdXJsZGF3bnBhdHJvbDMybW1jaGVzdHppcHN0ZWFtZXJncmV5LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6Mzk4LCJoZWlnaHQiOjQzMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX0sInZlcnNpb24iOiIyMDRjZDg1YTNhZGM2MTMzOTNiNjBlZGRmZGY0ZjllYTk5ZjQ0NTQyIn0=" alt="Product 5">
+      <h3><a href="https://www.theboardshop.co.nz/product-group/28435-rip-curl-dawn-patrol-3-2mm-chest-zip-steamer-grey/product?productId=1403013">Rip Curl Dawn Patrol 3/2mm Chest Zip Steamer</a></h3>
+      <h3>$349.00</h3>
+      <p>In Stock</p>
+      <button onclick="addToBasket('Rip Curl Dawn Patrol 3/2mm Chest Zip Steamer', '349.00')">Add to Cart</button>
+    </div>
+
+    <div class="team-member">
+      <img src="https://d1mv2b9v99cq0i.cloudfront.net/eyJidWNrZXQiOiJ3ZWItbmluamEtaW1hZ2VzIiwia2V5IjoidGhlYm9hcmRzaG9wXC9wcm9kdWN0LWdyb3VwXC9wYXRhZ29uaWF3b21lbnNyMWxpdGV5dWxleGxvbmdzbGVldmVzcHJpbmdzdWl0ZmVybnMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozOTgsImhlaWdodCI6NDMwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fSwidmVyc2lvbiI6IiJ9" alt="Product 6">
+      <h3><a href="https://www.theboardshop.co.nz/product-group/96624-patagonia-women-s-r1-lite-yulex-long-sleeve-spring-suit-ferns/product?productId=390971">Patagonia Women's Yulex Long Sleeve Spring Suit</a></h3>
+      <h3>$349.00</h3>
+      <p>In Stock</p>
+      <button onclick="addToBasket('Patagonia Womens Yulex Long Sleeve Spring Suit', '349.00')">Add to Cart</button>
+    </div>
+    <!-- Stops here, Starts below -->
